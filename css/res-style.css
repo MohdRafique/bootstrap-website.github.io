@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+*{padding: 0;
+margin: 0;}
+body{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: black;
+}
+.container{
+  width: 80%;	
+  background-color: #EDEDED;
+  height: 100vh;
+	margin: 0 auto;
+}
+
+.box{
+width: 20%;
+background-color: gray;
+height: 20vh;
+float: left;
+margin-left: 0.8rem;
+margin-bottom: 0.8rem;
+padding: 0.8rem;
+}
+
+/*Desktop*/
+@media screen and (max-width:1200px)
+{
+.box{
+width: 20%;
+background-color: black;
+height: 20vh;
+float: left;
+margin-left: 0.8rem;
+margin-bottom: 0.8rem;
+padding: 0.8rem;
+}
+}
+
+
+/*Laptop*/
+@media screen and (max-width:992px)
+{
+.box{
+width: 28%;
+background-color: blue;
+height: 20vh;
+float: left;
+margin-left: 0.8rem;
+margin-bottom: 0.8rem;
+padding: 0.8rem;
+}	
+}
+
+
+/*Tablet*/
+@media screen and (max-width:768px)
+{
+.box{
+width: 28%;
+background-color: green;
+height: 20vh;
+float: left;
+margin-left: 0.8rem;
+margin-bottom: 0.8rem;
+padding: 0.8rem;
+}
+	
+}
+
+/*Mobile*/
+@media screen and (max-width:576px)
+{
+.box{
+width: 89%;
+background-color: rebeccapurple;
+height: 20vh;
+float: left;
+margin-left: 0.8rem;
+margin-bottom: 0.8rem;
+padding: 0.8rem;
+}	
+}

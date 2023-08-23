@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive boxs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<!--<link rel="stylesheet" href="css/style.css">-->
+<!--<link rel="stylesheet" href="css/res-style.css">-->
+<link rel="stylesheet" href="css/best-responsive.css">
+</head>
+
+<body>
+<div class="pro-hd">
+	<h1>Products</h1>
+</div>	
+<header id="topnav">
+	<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Services</a></li>
+	</ul>
+	</nav>
+</header>	
+<div>
+	<img class="img-res" src="images/banner/1.jpg" alt="">
+	</div>
+	
+<div class="container content">
+		
+<div class="row">	
+<div class="col-12"><h1 class="txt-c">Title</h1></div>	
+</div>
+	
+<div class="row">	
+<div class="col-3">	
+<div class="column">
+		1
+</div>	
+</div>
+
+<div class="col-3">	
+<div class="column">
+		2
+</div>	
+</div>
+
+<div class="col-3">	
+<div class="column">
+		3
+</div>
+</div>	
+
+<div class="col-3">	
+<div class="column">
+		4
+</div>	
+</div>
+	
+</div>		
+	
+<div class="row">
+<div class="col-2">
+	<img class="mr-2 pl-0-5 col-6 blog-img" src="images/gallery-1.png" alt="">
+	</div>
+<div class="col-10">
+	<p >
+	
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate unde, ea quam odio laudantium voluptate natus magnam impedit vero voluptatibus eaque, fuga dolorum quos eveniet nemo voluptas rem quasi neque delectus aliquid commodi, numquam dignissimos? Cupiditate id delectus sed voluptas animi molestiae pariatur ut maiores, fuga corporis sequi maxime molestias, vero debitis consequuntur fugiat eaque in libero dolor repellendus inventore, obcaecati quis temporibus. Unde fugiat ea explicabo quasi quis doloremque doloribus harum eius perferendis soluta veritatis nisi reprehenderit placeat aliquid cupiditate rem distinctio illo, omnis dolor repellendus dolore.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-10">
+	<p >
+	
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate unde, ea quam odio laudantium voluptate natus magnam impedit vero voluptatibus eaque, fuga dolorum quos eveniet nemo voluptas rem quasi neque delectus aliquid commodi, numquam dignissimos? Cupiditate id delectus sed voluptas animi molestiae pariatur ut maiores, fuga corporis sequi maxime molestias, vero debitis consequuntur fugiat eaque in libero dolor repellendus inventore, obcaecati quis temporibus. Unde fugiat ea explicabo quasi quis doloremque doloribus harum eius perferendis soluta veritatis nisi reprehenderit placeat aliquid cupiditate rem distinctio illo, omnis dolor repellendus dolore.</p>
+</div>
+<div class="col-2">
+	<img class="col-6 blog-img flrt" src="images/gallery-2.png" alt="">
+	</div>	
+</div>	
+	
+
+</div>
+	
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("topnav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>	
+</body>
+</html>

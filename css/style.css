@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0;
+margin: 0;}
+body{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: wheat;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	background: #DBDBDB;
+}
+
+.box {
+  width: 20%;
+  height: 320px;
+  background-color: blue;
+  padding: 1rem;
+  margin: 1.4rem;
+  float: left;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.box{
+	width: 17%;
+	height: 320px;
+	background-color: greenyellow;
+	padding: 1rem;
+	margin: 1rem;
+	float: left;
+}
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.box{
+	width: 39%;
+	height: 320px;
+	background-color: gray;
+	padding: 1rem;
+	margin: 1rem;
+	float: left;
+}
+
+}
+
+
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.box{
+	width: 80%;
+	height: 320px;
+	background-color: black;
+	padding: 1rem;
+	margin: 1rem;
+	float: left;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
